@@ -1,0 +1,11 @@
+numpy
+pandas
+geopandas>=0.14
+pyogrio
+matplotlib>=3.8
+scikit-learn>=1.4
+scipy
+shap
+libpysal
+esda
+jupyter

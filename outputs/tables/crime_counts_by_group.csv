@@ -1,0 +1,14 @@
+group,Crime type,Count,% of all crime
+Comparison,Shoplifting,8518,8.8
+Comparison,Violence and sexual offences,45539,46.9
+Other,Bicycle theft,551,0.6
+Other,Burglary,3038,3.1
+Other,Drugs,8073,8.3
+Other,Other crime,3143,3.2
+Other,Other theft,8429,8.7
+Other,Possession of weapons,1220,1.3
+Other,Public order,997,1.0
+Street crime,Criminal damage and arson,14510,15.0
+Street crime,Robbery,439,0.5
+Street crime,Theft from the person,202,0.2
+Street crime,Vehicle crime,2382,2.5
