@@ -14,30 +14,7 @@ Code for my 6SSG3077 *Applications of Spatial Data Science* project (CW1 report)
 5. **Modelling.** OLS baseline, then a random forest tuned with `GridSearchCV`, comparing **random** and **spatial (block) cross-validation**. Final test on held-out 10 km blocks. SHAP for interpretation, and Moran's I on residuals.
 6. **Crime 1 vs Crime 2.** Everything is run for *street crime* (robbery, theft from the person, vehicle crime, criminal damage and arson) and a *comparison* group (violence and sexual offences, shoplifting).
 
-## Repository structure
 
-```
-├── data/
-│   ├── README.md          download instructions (raw data is not committed)
-│   ├── raw/               police/, streetlights/, nisra_grid/, settlements/, osm/
-│   └── processed/         grid_cells.gpkg, created by notebook 01
-├── scripts/
-│   └── aggregate_to_grid.py   cleaning + 1 km aggregation without geopandas
-├── notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_exploratory_spatial_analysis.ipynb
-│   └── 03_modelling.ipynb
-├── outputs/
-│   ├── figures/           maps and plots used in the report
-│   └── tables/            CSV results (cleaning log, Moran's I, CV and test scores, SHAP)
-├── src/
-│   ├── config.py          paths, study period, crime groups, model settings
-│   ├── features.py        lamp-type classification, SLAI
-│   ├── settlements.py     settlement (SDL 2015) overlay on the grid
-│   ├── irish_grid.py      WGS84 → Irish Grid projection and grid-square codes (numpy only)
-│   └── modelling.py       OLS, random forest tuning, random vs spatial CV
-└── requirements.txt
-```
 
 ## How to run
 
